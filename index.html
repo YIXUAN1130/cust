@@ -1,72 +1,108 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>心跳指令客服合集</title>
-  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- 重点：这里连接 css 文件 -->
+  <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
+
   <main class="page">
-    <section class="hero">
-      <p class="eyebrow">Customer Service</p>
-      <h1>心跳指令客服合集</h1>
-      <p class="subtitle">请选择需要联系的客服，点击名字即可跳转到对应企业微信联系页面。</p>
-    </section>
 
-    <section class="service-panel" aria-label="客服列表">
-      <a class="service-card" href="https://work.weixin.qq.com/ca/cawcde8a758a1966ba" target="_blank" rel="noopener noreferrer">
-        <div>
-          <strong>漫画7:00-13:00</strong>
-          <span>男贵宾点击联系</span>
+    <div class="top-text">CUSTOMER SERVICE</div>
+    <h1 class="main-title">心跳指令客服合集</h1>
+    <p class="main-desc">
+      请选择需要联系的客服，点击名字即可跳转到对应企业微信联系页面。
+    </p>
+
+    <div class="service-wrapper">
+
+      <!-- 男老板客服区 -->
+      <section class="service-section male-section">
+        <div class="section-header">
+          <div>
+            <span class="section-tag"></span>
+            <h2>男老板客服</h2>
+          </div>
+          <p>适合男贵宾联系的客服</p>
         </div>
-        <em>→</em>
+
+        <div class="service-grid">
+          <a class="service-card" href="https://work.weixin.qq.com/ca/你的链接1" target="_blank">
+            <div>
+              <h3>漫画 <span>7:00-13:00</span></h3>
+              <p>男贵宾点击联系</p>
+            </div>
+            <span class="arrow">→</span>
+          </a>
+
+          <a class="service-card" href="https://work.weixin.qq.com/ca/你的链接2" target="_blank">
+            <div>
+              <h3>比巴卜 <span>19:00-1:00</span></h3>
+              <p>男贵宾点击联系</p>
+            </div>
+            <span class="arrow">→</span>
+          </a>
+
+          <a class="service-card" href="https://work.weixin.qq.com/ca/你的链接3" target="_blank">
+            <div>
+              <h3>泡芙琳 <span>1:00-7:00</span></h3>
+              <p>男贵宾点击联系</p>
+            </div>
+            <span class="arrow">→</span>
+          </a>
+        </div>
+      </section>
+
+
+      <!-- 女老板客服区 -->
+      <section class="service-section female-section">
+        <div class="section-header">
+          <div>
+            <span class="section-tag"></span>
+            <h2>女老板客服</h2>
+          </div>
+          <p>适合女宝宝联系的客服</p>
+        </div>
+
+        <div class="service-grid">
+          <a class="service-card" href="https://work.weixin.qq.com/ca/你的链接4" target="_blank">
+            <div>
+              <h3>心结 <span>19:00-7:00</span></h3>
+              <p>女宝宝点击联系</p>
+            </div>
+            <span class="arrow">→</span>
+          </a>
+
+          <a class="service-card" href="https://work.weixin.qq.com/ca/你的链接5" target="_blank">
+            <div>
+              <h3>奶酪 <span>7:00-19:00</span></h3>
+              <p>女宝宝点击联系</p>
+            </div>
+            <span class="arrow">→</span>
+          </a>
+        </div>
+      </section>
+
+
+      <!-- 推荐入口 -->
+      <a class="service-card recommend-card" href="https://work.weixin.qq.com/ca/你的链接6" target="_blank">
+        <div>
+          <h3>心结 + 泡芙琳随机</h3>
+          <p>推荐入口</p>
+        </div>
+        <span class="arrow">→</span>
       </a>
 
-      <a class="service-card" href="https://work.weixin.qq.com/ca/cawcde6bb4bbe36cb9" target="_blank" rel="noopener noreferrer">
-        <div>
-          <strong>比巴卜19:00-1:00</strong>
-          <span>男贵宾点击联系</span>
-        </div>
-        <em>→</em>
-      </a>
+    </div>
 
-      <a class="service-card" href="https://work.weixin.qq.com/ca/cawcdea60750e4181d" target="_blank" rel="noopener noreferrer">
-        <div>
-          <strong>泡芙琳1:00-7:00</strong>
-          <span>男贵宾点击联系</span>
-        </div>
-        <em>→</em>
-      </a>
+    <p class="notice">请各位宝宝自行注意上班时间哦</p>
 
-      <a class="service-card" href="https://work.weixin.qq.com/ca/cawcdeb15aa06b6c6e" target="_blank" rel="noopener noreferrer">
-        <div>
-          <strong>心结19:00-7:00</strong>
-          <span>女宝宝点击联系</span>
-        </div>
-        <em>→</em>
-      </a>
-
-      <a class="service-card" href="https://work.weixin.qq.com/ca/cawcdec6cab25f925d" target="_blank" rel="noopener noreferrer">
-        <div>
-          <strong>奶酪7:00-19:00</strong>
-          <span>女宝宝点击联系</span>
-        </div>
-        <em>→</em>
-      </a>
-
-      <a class="service-card featured" href="https://work.weixin.qq.com/ca/cawcdef829c614682b" target="_blank" rel="noopener noreferrer">
-        <div>
-          <strong>心结 + 泡芙琳随机</strong>
-          <span>推荐入口</span>
-        </div>
-        <em>→</em>
-      </a>
-    </section>
-
-    <footer class="footer">
-      <span>请各位宝宝自行注意上班时间哦</span>
-    </footer>
   </main>
+
 </body>
 </html>
